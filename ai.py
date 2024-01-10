@@ -2,7 +2,7 @@ from openai import OpenAI
 
 # Replace 'YOUR_API_KEY' with your OpenAI API key
 DEFAULT_API_KEY = "<YOUR_API_KEY>"
-OPEN_AI_API_KEY = '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' # TODO: Read API Key FROM OS
+OPEN_AI_API_KEY = ""
 
 if OPEN_AI_API_KEY == DEFAULT_API_KEY:
     raise ValueError("Please set the OPEN_AI_API_KEY to a valid value")
